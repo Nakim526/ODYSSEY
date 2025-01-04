@@ -738,6 +738,11 @@ li.destination-item:is(:hover , :focus-within) .img-cover {
   padding-block: 60px;
 }
 
+.footer .logo {
+  width: 100%;
+  justify-content: center;
+}
+
 .footer-brand .footer-text {
   margin-block: 20px;
 }
