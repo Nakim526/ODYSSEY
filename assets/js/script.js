@@ -54,7 +54,7 @@ let navLinks = document.querySelectorAll("header nav a");
 window.onscroll = () => {
   sections.forEach((sec) => {
     let top = window.scrollY;
-    let offset = sec.offsetTop - 1;
+    let offset = sec.offsetTop - 100;
     let height = sec.offsetHeight;
     let id = sec.getAttribute("id");
 
@@ -68,3 +68,13 @@ window.onscroll = () => {
     }
   });
 };
+
+// Close sidenav when a link is clicked
+const navLink = navbar.querySelectorAll("a");
+navLink.forEach((link) => {
+  link.addEventListener("click", () => {
+    navbar.classList.remove("active");
+    overlay.classList.remove("active");
+    document.body.classList.remove("nav-active");
+  });
+});
