@@ -180,7 +180,7 @@ body.nav-active { overflow: hidden; }
 
 
 .btn {
-  padding: 5px 15px;
+  padding: 10px 30px;
   color: var(--text-white);
   max-width: max-content;
   display: flex;
@@ -969,7 +969,7 @@ li.destination-item:is(:hover , :focus-within) .img-cover {
     }
 
     .btn{
-      height: 60px;
+      height: 50px;
       padding-inline: 40px;
     }
 
@@ -1247,8 +1247,9 @@ li.destination-item:is(:hover , :focus-within) .img-cover {
   }
 
   .header-actions .btn {
-    height: 40px;
-    width: 200px;
+    /* height: 50px; */
+    padding-inline: 30px;
+    width: max-content;
   }
 
   .login-btn {
