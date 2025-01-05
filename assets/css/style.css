@@ -658,7 +658,10 @@ li.destination-item:is(:hover , :focus-within) .img-cover {
   position: relative;
   margin-inline: 30px;
   margin-block-start: 20px;
+}
 
+.exp-banner img {
+  border-radius: var(--radius-30);
 }
 
 .exp .section-text {
